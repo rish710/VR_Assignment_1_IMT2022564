@@ -18,22 +18,19 @@ All implementations are in **Python**.
 ```
 VR_Assignment1_IMT2022564/
 │── Q1/                                         # Folder for Coin Detection and Segmentation
-│   │── Q1.py                                   # Python script for coin detection
+│   │── Q1_IMT2022564.py                        # Python script for coin detection
 │   │── coin.png                                # Python script for coin detection
-│   │── coin_detection_output.jpg               # Final detected coin image with count
-│   │── edge_detection_output.jpg               # Image after edge detection
-│   │── segmentation_output.jpg                 # Image after segmentation
+│   │── Coin_Detection_Result.jpg               # Final detected coin image with count
+│   │── Edge_Detection_Result.jpg               # Image after edge detection
+│   │── Segmentation_Result.jpg                 # Image after segmentation
 │
 │── Q2/                                         # Folder for Image Stitching
-│   │── Q2_ImageStitching.py                    # Python script for image stitching
-│   │── unstitchedImages/                       # Folder containing input images for stitching
-│   │── keypoints_image_1.png                   # ORB keypoints detected in first image
-│   │── keypoints_image_2.png                   # ORB keypoints detected in second image
-│   │── keypoints_image_3.png                   # ORB keypoints detected in third image
-│   │── stitchedOutputProcessed.png             # Final processed stitched image
+│   │── Q2_IMT2022564.py                    # Python script for image stitching
+│   │── unstitched_images/                       # Folder containing input images for stitching
+│   │── keypoints_output/                 # Folder with keypoints detected in the images
+│   │── panorama.png             # Final processed stitched image
 │
 │── README.md                                   # Project documentation
-│── VR_Assignment1_Himanshu_IMT2022584.pdf      # Final report in PDF format
 
 ```
 
@@ -65,9 +62,8 @@ python Q1.py
 python Q2.py
 ```
 **Expected Outputs:**  
-- `keypoints_image_1.png`, `keypoints_image_2.png`, `keypoints_image_3.png` (Keypoints detected in images)  
-- `stitchedOutput.png` (Initial stitched image)  
-- `stitchedOutputProcessed.png` (Final processed stitched output)  
+- `keypoints_output` (Folder with keypoints detected in the images)  
+- `panorama.png` (Final processed stitched output)  
 
 ---
 
