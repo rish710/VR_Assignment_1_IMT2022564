@@ -16,20 +16,26 @@ All implementations are in **Python**.
 ## 📂 Repository Structure  
 
 ```
-VR_Assignment1_IMT2022564/
+VR_Assignment_1_IMT2022564/
 │── Q1/                                         # Folder for Coin Detection and Segmentation
 │   │── Q1_IMT2022564.py                        # Python script for coin detection
-│   │── coin.png                                # Python script for coin detection
+│   │── coin.png                                # Sample input image of coins
 │   │── Coin_Detection_Result.jpg               # Final detected coin image with count
 │   │── Edge_Detection_Result.jpg               # Image after edge detection
 │   │── Segmentation_Result.jpg                 # Image after segmentation
 │
 │── Q2/                                         # Folder for Image Stitching
-│   │── Q2_IMT2022564.py                    # Python script for image stitching
-│   │── unstitched_images/                       # Folder containing input images for stitching
-│   │── keypoints_output/                 # Folder with keypoints detected in the images
-│   │── panorama.png             # Final processed stitched image
-│
+│   │── Q2_IMT2022564.py                        # Python script for image stitching
+│   │── unstitched_images/                      # Folder containing input images for stitching
+│   │   │── left.png                            # Input image 
+│   │   │── right.png                           # Input image 
+│   │   │── center.png                          # Additional input images...
+│   │── keypoints_output/                       # Folder with keypoints detected in the images
+│   │   │── left_keypoints.png                  # Keypoints visualization for image
+│   │   │── right_keypoints.png                 # Keypoints visualization for image
+│   │   │── center_keypoints.png                # Keypoints visualization for image
+│   │── panorama.png                            # Final processed stitched image
+
 │── README.md                                   # Project documentation
 
 ```
